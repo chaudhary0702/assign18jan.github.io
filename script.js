@@ -95,7 +95,7 @@ function onSuccess(event){
 function onError(){
     alert("can't fetch the location")
 }
-// console.log(name)
+
 
 
 populateList()
