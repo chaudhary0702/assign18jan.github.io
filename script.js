@@ -86,19 +86,11 @@ function onSuccess(event){
                     closeButton:false,
                 }
     
-            )).setPopupContent("working fine")
+            )).setPopupContent(option.value)
             .openPopup();
             console.log(currentLocation)
-        })
-    
-    
-    
-       
-    
+        })  
     }
-
-
-
 
 function onError(){
     alert("can't fetch the location")
